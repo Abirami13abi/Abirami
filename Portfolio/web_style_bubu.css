@@ -1,0 +1,50 @@
+/* New section styles */
+section {
+  padding: 50px 0;
+  color: white;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #077b32;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  font-size: 1.5rem;
+  color: #077b32;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+section p, section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+section ul li::before {
+  content: "•";
+  color: #077b32;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+#contact a {
+  color: #077b32;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
